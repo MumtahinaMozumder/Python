@@ -1,0 +1,15 @@
+apples=15
+oranges=10
+x=10
+y=15
+apples=x
+oranges=y
+
+print("Apples:", apples)
+print("Oranges:", oranges)
+sells=5
+apples=apples-sells
+print("Apples after selling:", apples)
+price_per_fruit=2
+final_value=(apples+oranges)*price_per_fruit
+print("Final value of remaining fruits:", final_value)
